@@ -48,7 +48,7 @@ I have shipped the whole venv to avoid any possible runtime issue.
 2) run npm install (run in node.js cmd or VS code editor)  
 
 3) npm start  
-Open http://localhost:3000 to view it in the browser.  
+Open http://localhost:3000 to view it in the browser.  (run in chrome browser)
 
 
 

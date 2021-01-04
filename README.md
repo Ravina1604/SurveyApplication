@@ -19,7 +19,7 @@ Python Version: 3.9
         cd Scripts  
 	activate.bat  
 	cd ../..  
-	set PYTHONPATH="project_directory_path"  
+	set PYTHONPATH="<project_directory_path/back-end>"  
 	cd server  
 	python main.py  
 
@@ -28,7 +28,7 @@ Python Version: 3.9
         cd Scripts  
 	./activate  
 	cd ../..  
-	export PYTHONPATH=$(pwd)  
+	export PYTHONPATH="<project_directory_path/back-end>"
 	cd server  
 	python main.py  
 

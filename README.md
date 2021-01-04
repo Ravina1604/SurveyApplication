@@ -20,7 +20,7 @@ Python Version: 3.9
 	activate.bat  
 	cd ../..  
 	set PYTHONPATH="<project_directory_path/back-end>"  
-	cd server  
+	cd back-end/server  
 	python main.py  
 
 
@@ -29,7 +29,7 @@ Python Version: 3.9
 	./activate  
 	cd ../..  
 	export PYTHONPATH="<project_directory_path/back-end>"
-	cd server  
+	cd back-end/server  
 	python main.py  
 
 

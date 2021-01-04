@@ -1,6 +1,15 @@
 # SurveyApp
 
+### Back-end Stack:
+Python  
+Flask  
+
+### Front-end Stack:
+React.js  
+Redux  
+
 ## To run backend server:
+Python Version: 3.9   
 1) go to back-end folder  
 
 2) go to venv folder  

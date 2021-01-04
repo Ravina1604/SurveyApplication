@@ -1,0 +1,69 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  &-header {
+    background-color: bisque;
+    height: 5em;
+    label {
+      flex: 1
+    }
+  }
+  &-body {
+    height: calc(100% - 5em);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.nav-item {
+  padding: 0 1.231em;
+  cursor: pointer;
+}
+.active {
+  border-bottom: 1px solid rebeccapurple;
+  color: rebeccapurple;
+  font-weight: bold;        
+}
+
+
+.no-border {
+  padding-left: 0;
+  border: 0;
+  box-shadow: none !important;
+  border-bottom: 1px solid;
+  border-radius: 0;
+}
+
+.btn {
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	transition: all ease-in-out .5s;
+}
+
+.btn::after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 25%;
+	height: 100%;
+	width: 50%;
+	background-color: #000;
+	border-radius: 50%;
+	opacity: 0;
+	pointer-events: none;
+	transition: all ease-in-out 1s;
+	transform: scale(5, 5);
+}
+
+.btn:active::after {
+	padding: 0;
+	margin: 0;
+	opacity: .2;
+	transition: 0s;
+	transform: scale(0, 0);
+}

@@ -1,0 +1,30 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: rebeccapurple;
+    &-form {
+        width: 28.125em;
+        height: 28.125em;
+        margin: auto;
+        background: #ffffff;
+        box-shadow: 0 0.875em 5em rgba(34, 35, 58, 0.2);
+        padding: 1em;
+        border-radius: 1em;
+        .btn {
+            background: rebeccapurple;
+            color: white;
+        }
+    }
+}
+
+.tab-content {
+    height: 21.875em;
+    padding: 1.231em 0;
+    .tab-pane {
+        height: 100%;
+    }
+}

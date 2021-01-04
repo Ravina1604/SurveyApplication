@@ -25,8 +25,8 @@ Python Version: 3.9
 	python main.py  
 ```
 
-#### For Linux:
-        ```
+#### For Linux:  
+	```
 	cd Scripts  
 	./activate  
 	cd ../..  
